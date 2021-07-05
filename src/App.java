@@ -1,6 +1,7 @@
 public class App {
     public static void main(String[] args) {
-      Carro c1 = new Carro();
+      //Criando Classe e instanciando objetos a partir da class Carro.
+     /* Carro c1 = new Carro();
       c1.potencia = 10;
       c1.marca =  "Corcel";
       c1.velocidade = 0;
@@ -23,6 +24,17 @@ public class App {
           }
         }
       System.out.println("Frear Agora!");
-      c2.imprimir();
+      c2.imprimir(); */
+      // Construtores Diferentes para mesma classe.
+      Compra compra1 = new Compra(500);
+      System.out.println(compra1.getNumeroParcelas());//== 1
+      System.out.println(compra1.getValorTotal());// == 500
+
+      Compra compra2 = new Compra(4, 150);
+      System.out.println(compra2.getNumeroParcelas());// == 4
+      System.out.println(compra2.getValorParcela());// == 150
+      System.out.println(compra2.getValorTotal());// == 600
+
+
     }
 }
