@@ -25,7 +25,8 @@ public class App {
         }
       System.out.println("Frear Agora!");
       c2.imprimir(); */
-      // Construtores Diferentes para mesma classe.
+      
+    /*/ Construtores Diferentes para mesma classe.
       Compra compra1 = new Compra(500);
       System.out.println(compra1.getNumeroParcelas());//== 1
       System.out.println(compra1.getValorTotal());// == 500
@@ -33,8 +34,13 @@ public class App {
       Compra compra2 = new Compra(4, 150);
       System.out.println(compra2.getNumeroParcelas());// == 4
       System.out.println(compra2.getValorParcela());// == 150
-      System.out.println(compra2.getValorTotal());// == 600
+      System.out.println(compra2.getValorTotal());// == 600 */
 
+      // project IMC
+      Paciente paciente1 = new Paciente(129.0, 1.77);
+      System.out.println(paciente1.Diagnostico());
+        
+        
 
     }
 }
