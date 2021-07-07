@@ -37,7 +37,8 @@ public class App {
       System.out.println(compra2.getValorTotal());// == 600 */
 
       // project IMC
-      Paciente paciente1 = new Paciente(129.0, 1.77);
+      Paciente paciente1 = new Paciente(90, 1.77);
+      paciente1.CalcularIMC();
       System.out.println(paciente1.Diagnostico());
         
         
