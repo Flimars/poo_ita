@@ -1,0 +1,13 @@
+## As classes de um sistema devem ter responsabilidades bem definidas e colaborar para implementar as fun_
+cionalidades do sistema.
+
+Exemplo 1: Imagine um pizzaria on-line em que o preço da pizza depende do seus ingredientes e a entrega de_
+pende do dia da semana e da distância.
+
+    * class Pizza(Calcula o preço baseado nos ingredientes da pizza);
+    * class Entrega(Calcula o preço baseado no dia da semana e na distância);
+    * class Carrinho(Calcula o valor total da compra com as pizzas, refrigerante e a entrega);
+
+Criar um sistema orientado á objetos tem a ver com descobrir suas peças e como elas se encaixam.
+
+** Nota: NEM PENSE EM QUERER COLOCAR TUDO EM UMA CLASSE SÓ!
